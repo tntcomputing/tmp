@@ -513,11 +513,11 @@ this.decrementCredits = function (numberToRemove) {
         }
     })
     .state('app.profile', {
-        url: "/profile",
+        url: '/profile',
         views: {
             'menuContent': {
-                templateUrl: "templates/profile.html",
-                controller: "ProfileCtrl"
+                templateUrl: 'templates/profile.html',
+                controller: 'ProfileCtrl'
             }
         }
     })
@@ -548,6 +548,26 @@ this.decrementCredits = function (numberToRemove) {
                 controller: "AboutCtrl"
             }
         }
+    })
+    .state('app.login', {
+        url: '/login',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/login.html',
+                controller: 'LoginCtrl'
+            }
+        }
+     
+    })
+    .state('app.signup', {
+        url: '/signup',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/signup.html',
+                controller: 'SignupCtrl'
+            }
+        }
+
     });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/projects');

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="uk.co.tntcomputing.tmp" version="0.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="uk.co.tntcomputing.tmp" version="0.0.11" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Too Many Projects</name>
   <description>Too Many Projects
     </description>
@@ -9,7 +9,6 @@
   <allow-navigation href="http://*/*" />
   <allow-navigation href="https://*/*" />
   <allow-navigation href="data:*" />
-  <access origin="*.facebook.com" />
   <access origin="*" />
   <preference name="webviewbounce" value="false" />
   <preference name="UIWebViewBounce" value="false" />
